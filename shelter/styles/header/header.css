@@ -1,4 +1,8 @@
 .header {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  padding-top: 30px;
   background-color: inherit;
 }
 
@@ -17,7 +21,7 @@
 
 .header__list {
   display: flex;
-  gap: 35px;
+  gap: 36px;
 }
 
 .header__logo-title {
@@ -48,9 +52,13 @@
 }
 
 .header__list-item-active,
-.header__list-item:hover {
+.header__list-item:active {
   color: var(--color-light-s);
   border-bottom: solid 3px var(--color-primary);
+}
+
+.header__list-item:hover {
+  color: var(--color-light-s);
 }
 
 .header__link-active {
