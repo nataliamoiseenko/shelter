@@ -1,0 +1,95 @@
+.our-friends {
+  padding: 80px 0 100px 0;
+  background-color: var(--color-light-l);
+}
+
+.our-friends__container {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.our-friends__title {
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-l);
+}
+
+.our-friends__content {
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-friends__card {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--color-light-s);
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.our-friends__card:hover > .our-friends__card-button {
+  background-color: var(--color-primary-light);
+}
+
+.our-friends__card-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-l);
+}
+
+.our-friends__card-button {
+  padding: 13px 44px;
+  margin-bottom: 30px;
+  background-color: inherit;
+  border: 2px solid var(--color-primary-light);
+  border-radius: 100px;
+}
+
+.our-friends__button {
+  display: block;
+  margin: 0 auto;
+  width: 262px;
+}
+
+.our-friends__nav-button {
+  position: absolute;
+  top: 192px;
+  z-index: 101;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  border: 2px solid var(--color-primary-light);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.our-friends__nav-button:hover{
+  background-color: var(--color-primary-light);
+}
+
+.our-friends__nav-button-left {
+  left: -105px
+}
+
+.our-friends__nav-button-right {
+  right: -105px;
+  transform: rotate(180deg);
+}

@@ -33,3 +33,20 @@ ul {
 button {
   cursor: pointer;
 }
+
+.button {
+  padding: 15px 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-3xl);
+  background-color: var(--color-primary);
+  border-radius: 100px;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: var(--color-primary-light);
+}
