@@ -11,12 +11,6 @@
 .our-friends__title {
   margin-bottom: 60px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 130%;
-  letter-spacing: 0.06em;
-  color: var(--color-dark-l);
 }
 
 .our-friends__content {

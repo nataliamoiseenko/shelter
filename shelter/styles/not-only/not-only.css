@@ -12,6 +12,9 @@
 .not-only__title {
   padding-top: 164px;
   margin-bottom: 42px;
+  font-size: 44px;
+  letter-spacing: normal;
+  color: var(--color-light-xl);
 }
 
 .not-only__paragraph {
@@ -20,14 +23,6 @@
 
 .not-only__button {
   display: inline-block;
-}
-
-.not-only__title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400;
-  font-size: 44px;
-  line-height: 130%;
-  color: var(--color-light-xl);
 }
 
 .not-only__paragraph {
