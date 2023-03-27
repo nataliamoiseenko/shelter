@@ -1,0 +1,51 @@
+.header__page2 {
+  position: static;
+  padding: 30px 0;
+  background-color: var(--color-light-xl);
+}
+
+.header__logo-title-page2 {
+  color: var(--color-dark-l);
+}
+
+.header__logo-subtitle-page2 {
+  color: var(--color-dark-3xl);
+}
+
+.header__logo:hover > .header__logo-title-page2 {
+  color: var(--color-dark-3xl);
+}
+
+.header__logo:hover > .header__logo-subtitle-page2 {
+  color: var(--color-dark-l);
+}
+
+.header__list-item-page2 {
+  color: var(--color-dark-l);
+}
+
+.header__list-item-page2-active {
+  color: var(--color-dark-3xl);
+  border-bottom: solid 3px var(--color-primary);
+}
+
+.header__list-item-page2:hover {
+  color: var(--color-dark-3xl);
+}
+
+.header__link-page2-active {
+  cursor: default;
+}
+
+.header__link-active-not {
+  cursor: pointer;
+}
+
+.header__list-item-active-not {
+  border-bottom: none;
+}
+
+.header__list-item-page2:active {
+  color: var(--color-dark-l);
+  border-bottom: solid 3px var(--color-primary);
+}
