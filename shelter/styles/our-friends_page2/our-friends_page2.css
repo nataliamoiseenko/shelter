@@ -1,0 +1,56 @@
+.our-friends__content-page2 {
+  position: static;
+  gap: 30px 0;
+  flex-wrap: wrap;
+}
+
+.our-friends__nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.our-friends__nav-button-page2 {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-dark-3xl);
+  background-color: inherit;
+  border: 2px solid var(--color-primary-light);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.our-friends__nav-button-page2-next:hover {
+  background-color: var(--color-primary-light);
+}
+
+.our-friends__nav-button-page2-current {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.our-friends__nav-button-page2-current:hover {
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+}
+
+.our-friends__nav-button-page2-current:active {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.our-friends__nav-button-page2-inactive {
+  transform: rotate(180deg);
+  color: var(--color-dark-s);
+  border: 2px solid var(--color-dark-s);
+  cursor: default;
+}
