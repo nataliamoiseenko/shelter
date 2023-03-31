@@ -32,6 +32,11 @@
   transition: all 0.5s;
 }
 
+.our-friends__card:hover {
+  background-color: var(--color-light-xl);
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
 .our-friends__card:hover > .our-friends__card-button {
   background-color: var(--color-primary-light);
 }

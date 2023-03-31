@@ -39,6 +39,11 @@
   letter-spacing: 0.06em;
   background: var(--color-primary);
   border-radius: 9px;
+  transition: all 0.5s;
+}
+
+.in-addition__card-info:hover {
+  background-color: var(--color-primary-light);
 }
 
 .in-addition__card-number {
