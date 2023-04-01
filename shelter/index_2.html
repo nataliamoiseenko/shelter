@@ -16,7 +16,7 @@
             <span class="header__logo-title header__logo-title-page2">Cozy House</span>
             <span class="header__logo-subtitle header__logo-subtitle-page2">Shelter for pets in Boston</span>
         </a>
-        <nav>
+        <nav class="header__nav">
           <ul class="header__list">
             <li class="header__list-item header__list-item-active header__list-item-page2 header__list-item-active-not">
               <a href="./index.html" class="header__link header__link-active header__link-active-not">About the shelter</a>
@@ -32,6 +32,28 @@
             </li>
           </ul>
         </nav>
+        <div class="header__burger-menu">
+          <input id="header__burger-menu-toggle" type="checkbox">
+          <label class="header__burger-menu-button-container" for="header__burger-menu-toggle">
+            <div class="header__burger-menu-button"></div>
+            <div class="header__burger-menu-button"></div>
+            <div class="header__burger-menu-button"></div>
+          </label>
+          <ul class="header__burger-menu-list">
+            <li class="header__burger-menu-list-item">
+              <a href="#" class="header__burger-menu-link">About the shelter</a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="./index_2.html" class="header__burger-menu-link">Our pets</a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#help" class="header__burger-menu-link">Help the shelter</a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#footer" class="header__burger-menu-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -56,27 +78,27 @@
             <span class="our-friends__card-text">Woody</span>
             <a href="#" class="button our-friends__card-button">Learn more</a>
           </div>
-          <div class="our-friends__card">
+          <div class="our-friends__card our-friends__card-hidden-page2-mobile">
             <img class="our-friends__img" src="./assets/img/pets-sophia.png" alt="pets-sophia">
             <span class="our-friends__card-text">Sophia</span>
             <a href="#" class="button our-friends__card-button">Learn more</a>
           </div>
-          <div class="our-friends__card">
+          <div class="our-friends__card our-friends__card-hidden-page2-mobile">
             <img class="our-friends__img" src="./assets/img/pets-timmy.png" alt="pets-timmy">
             <span class="our-friends__card-text">Timmy</span>
             <a href="#" class="button our-friends__card-button">Learn more</a>
           </div>
-          <div class="our-friends__card">
+          <div class="our-friends__card our-friends__card-hidden-page2-mobile">
             <img class="our-friends__img" src="./assets/img/pets-charly.png" alt="pets-charly">
             <span class="our-friends__card-text">Charly</span>
             <a href="#" class="button our-friends__card-button">Learn more</a>
           </div>
-          <div class="our-friends__card our-friends__card-hidden-page2">
+          <div class="our-friends__card our-friends__card-hidden-page2 our-friends__card-hidden-page2-mobile">
             <img class="our-friends__img" src="./assets/img/pets-scarlet.png" alt="pets-scarlet">
             <span class="our-friends__card-text">Scarlett</span>
             <a href="#" class="button our-friends__card-button">Learn more</a>
           </div>
-          <div class="our-friends__card our-friends__card-hidden-page2">
+          <div class="our-friends__card our-friends__card-hidden-page2 our-friends__card-hidden-page2-mobile">
             <img class="our-friends__img" src="./assets/img/pets-freddie.png" alt="pets-freddie">
             <span class="our-friends__card-text">Freddie</span>
             <a href="#" class="button our-friends__card-button">Learn more</a>
@@ -117,7 +139,8 @@
         <div class="footer__content-main">
           <div class="footer__text">
             <h2 class="title footer__title footer__title-left">For questions<br>and suggestions</h2>
-            <ul class="footer__list">
+            <h2 class="footer__title-adaptive footer__title-adaptive-con">For questions and suggestions</h2>
+            <ul class="footer__list footer__list-con">
               <li class="footer__list-item">
                 <a class="footer__link" href="mailto:email@shelter.com">
                   <svg width="40" height="26" viewBox="0 0 40 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,7 +165,8 @@
           </div>
           <div class="footer__text">
             <h2 class="title footer__title footer__title-right">We are waiting<br>for your visit</h2>
-            <ul class="footer__list">
+            <h2 class="footer__title-adaptive footer__title-adaptive-loc">We are waiting for<br>your visit</h2>
+            <ul class="footer__list footer__list-loc">
               <li class="footer__list-item">
                 <a class="footer__link" href="https://goo.gl/maps/Lm3pg1xf9DXRkaAK9" target="_blank">
                   <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,7 +188,7 @@
             </ul>
           </div>
         </div>
-        <img src="./assets/img/footer-puppy.png" alt="footer-puppy">
+        <img class="footer__img" src="./assets/img/footer-puppy.png" alt="footer-puppy">
       </div>
     </div>
   </footer>
