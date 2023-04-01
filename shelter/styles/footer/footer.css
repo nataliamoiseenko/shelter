@@ -54,3 +54,7 @@
 .footer__link:hover {
   color: var(--color-light-xl);
 }
+
+.footer__title-adaptive {
+  display: none;
+}

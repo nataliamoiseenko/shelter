@@ -212,3 +212,300 @@
     padding-bottom: 65px;
   }
 }
+
+@media screen and (max-width: 744px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__burger-menu {
+    display: block;
+  }
+
+  .header__burger-menu-button-container {
+    display: flex;
+  }
+
+  .container,
+  .our-friends__container {
+    width: 600px;
+  }
+
+  .our-friends__card-hidden-mobile {
+    display: none;
+  }
+
+  .our-friends__nav-button-left {
+    left: 90px
+  }
+
+  .our-friends__nav-button-right {
+    right: 90px;
+  }
+
+  .footer__content-main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 717px) {
+  .not-only__img,
+  .in-addition__img {
+    width: 360px;
+    height: auto;
+  }
+
+@media screen and (max-width: 648px) {
+  .container,
+  .about__content,
+  .our-friends__container,
+  .help__container {
+    width: 400px;
+  }
+
+  .our-friends__nav-button-left {
+    top: 455px;
+    right: 258px;
+  }
+
+  .our-friends__nav-button-right {
+    top: 455px;
+    left: 258px;
+  }
+
+  .our-friends__content {
+    margin-bottom: 114px;
+  }
+
+  .help__list-adaptive .help__list-item {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .container,
+  .about__content,
+  .our-friends__container,
+  .help__container {
+    width: 320px;
+  }
+
+  .not-only__img,
+  .about__img,
+  .in-addition__img,
+  .footer__img {
+    width: 260px;
+    height: auto;
+  }
+
+  .about,
+  .our-friends,
+  .help,
+  .in-addition {
+    padding: 42px 0 42px;
+  }
+
+  .not-only__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+  }
+
+  .title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .not-only__title {
+    margin-bottom: 0;
+    letter-spacing: 0.06em;
+  }
+
+  .not-only__paragraph-adaptive {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: var(--color-dark-s);
+    display: block;
+    text-align: center;
+  }
+
+  .not-only__paragraph {
+    display: none;
+  }
+
+  .our-friends__title {
+    margin-bottom: 42px;
+  }
+
+  .our-friends__nav-button-left {
+    top: 455px;
+    left: 67px;
+  }
+
+  .our-friends__nav-button-right {
+    top: 455px;
+    left: 199px;
+  }
+
+  .help__title {
+    margin-bottom: 42px;
+  }
+
+  .help__list-adaptive {
+    gap: 30px 0;
+  }
+
+  .help__list-item {
+    font-size: 15px;
+    line-height: 110%;
+    gap: 20px;
+  }
+
+  .help__icon {
+    max-height: 50px;
+  }
+
+  .in-addition__title, .in-addition__text {
+    align-self: auto;
+  }
+
+  .in-addition__content,
+  .in-addition__content-main {
+    width: 320px;
+  }
+
+  .in-addition__text {
+    line-height: 160%;
+    letter-spacing: normal;
+  }
+
+  .in-addition__card-info {
+    font-size: 15px;
+    line-height: 110%;
+    align-self: auto;
+  }
+
+  .in-addition__paragraph {
+    text-align: justify;
+  }
+
+  .footer__text {
+    height: 208px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .container,
+  .our-friends__container,
+  .help__container {
+    width: 300px;
+  }
+
+  .header__content {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .not-only__content {
+    gap: 105px;
+  }
+
+  .about__content {
+    width: 270px;
+    gap: 42px;
+  }
+
+  .about__paragraph {
+    text-align: justify;
+  }
+
+  .about__text {
+    gap: 23px;
+  }
+
+  .our-friends__content {
+    width: 270px;
+    margin: 0 auto;
+    margin-bottom: 114px;
+  }
+
+  .our-friends__nav-button-left {
+    top: 455px;
+    left: 42px;
+  }
+
+  .our-friends__nav-button-right {
+    top: 455px;
+    left: 174px;
+  }
+
+  .help__container {
+    width: 290px;
+  }
+
+  .help__list-adaptive .help__list-item {
+    flex-basis: 45%;
+  }
+
+  .in-addition__content,
+  .in-addition__content-main {
+    width: 280px;
+  }
+
+  .in-addition__content {
+    gap: 42px;
+  }
+
+  .in-addition__card-info {
+    padding: 10px 14px;
+    align-items: center;
+  }
+
+  .footer__title {
+    display: none;
+  }
+
+  .footer__title-adaptive {
+    display: flex;
+  }
+
+  .footer__title-adaptive {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--color-light-xl);
+  }
+
+  .footer__container {
+    width: 300px;
+  }
+
+  .footer__title-adaptive-con {
+    margin-bottom: 45px;
+  }
+
+  .footer__title-adaptive-loc {
+    margin-bottom: 40px;
+    align-self: center;
+  }
+
+  .footer__list-con {
+    align-items: center;
+  }
+
+  .footer__list-loc {
+    height: 222px;
+    gap: 38px;
+  }
+
+  .footer__content-main {
+    gap: 41px;
+    padding-bottom: 53px;
+  }
+}
