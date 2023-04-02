@@ -49,3 +49,7 @@
   color: var(--color-dark-l);
   border-bottom: solid 3px var(--color-primary);
 }
+
+.header__burger-menu-button-page2 {
+  background-color: #000;
+}
